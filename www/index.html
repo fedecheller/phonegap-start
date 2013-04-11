@@ -33,6 +33,8 @@
                 <p class="status complete blink hide">Device is Ready</p>
             </div>
         </div>
+		<input type="button" onclick="navigator.notification.beep(2);" value="BEEP" />
+		<input type="button" onclick="navigator.notification.vibrate(1000);" value="VIBE" />
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
